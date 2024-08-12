@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: black;
+    padding:35px;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin:80px;
+}
+.log-in,.sign-up {
+    border: 1px solid rgb(255, 94, 0);
+    background-color:  rgb(255, 94, 0);
+    padding: 8px 35px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-left:10px;
+    margin-right: 20px;
+}
+.have_acc{
+    text-decoration: none;
+    color:gray;
+    margin-left: 70px;
+}
+h1{
+    padding-left: 70px;
+}
+.submit{
+    margin-left: 48px;
+    padding: 10px 60px;
+    border-radius: 25px;
+    background-color: rgb(255,94,0);
+    color: white;
+    text-align: center;
+    border:1px solid rgb(255,94,0);
+    margin-bottom: 15px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+form{
+    margin: 100px 500px;
+    padding-left: 140px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+}
+input{
+    margin-left: 50px;
+    margin-top:15px;
+
+}
+label{
+    
+    margin-left:50px;
+    margin-top:2px;
+}
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
+
